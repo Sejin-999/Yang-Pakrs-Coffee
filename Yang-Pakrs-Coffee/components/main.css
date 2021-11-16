@@ -1,0 +1,23 @@
+#main {
+  width: 100%;
+  height: 2700px; /*page 900px*/
+}
+
+#main__intro {
+  height: 900px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr;
+}
+
+.main__intro__case video {
+  width: 100%;
+}
+
+.main__intro__title :first-child {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Petemoss", cursive;
+  font-size: 100px;
+}
