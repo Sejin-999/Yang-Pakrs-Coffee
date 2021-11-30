@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yang & Parks Join</title>
+  <link href="/components/join.css" rel="stylesheet">
+  <link href="/components/header.css" rel="stylesheet">
+  <link href="/components/basic.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+  
+    <a href="#" class="logo">
+      <span id="logo-font">Yang & Parks</span>
+    </a>
+  
+    <div class="action">
+      <a href="/select.html" alt="#">수정페이지</a>
+    </div>
+  </header>
+
+  <section id="join">
+
+    <div class="jointitle">
+      <span>회원 정보 수정</span>
+    </div>
+
+    <form action="/real/joincom.html" method="post">
+      <div class="container">
+        <div class="join_box">
+          <input type="text" name="join_id" id="join_id" placeholder="UserId">
+          <div class="war_be">
+            <span> ID : 6 ~ 12 </span>
+          </div>
+        </div>
+
+          <div class="join_box">
+            <input type="text" name="join_name" id="join_name" placeholder="UserName">
+            <div class="war_be">
+              <span> 이름을 입력해주세요 </span>
+            </div>
+          </div>
+
+        <div class="join_box">
+            <input type="password" name="join_ps" id="join_ps" placeholder="UserPass">
+          <div class="war_be">
+            <span> Password : 8~12 + 영문,숫자가 적어도 한개이상 들어가야합니다.</span>
+          </div>
+        </div>
+
+        <div class="join_box">
+          <input type="password" name="join_psCH" id="join_psCH" placeholder="check Pass">
+          <div class="war_be">
+            <span> 비밀번호를 한번더 입력해주세요! </span>
+          </div>
+        </div>
+
+        <div class="join_box">
+          
+          <div class="join_box__add">
+            <input type="text" name="join_addre1" id="join_addre1" placeholder="집주소">
+            <input type="text" name="join_addre2" id="join_addre2" placeholder="상세주소">
+            <div id="join_add_ch">
+              <button type="submit" onclick="checkadd()">Check</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="join_btn"type="submit">회원정보수정</button>
+    </form>
+
+  </section>
+  <script src="js/join.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yang & Parks coffee purchase</title>
+  <!--cart css start-->
+  <link href="/components/cart.css" rel="stylesheet">
+  <!--header css start-->
+  <link href="/components/header.css" rel="stylesheet">
+  <!--basic css start-->
+  <link href="/components/basic.css" rel="stylesheet">
+  <!--icon css start-->
+  <script src="https://kit.fontawesome.com/b9698447d7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--header start-->
+  <header class="header">
+  
+    <a href="#" class="logo">
+      <span id="logo-font">Yang & Parks</span>
+    </a>
+  
+    <div class="action">
+      <a href="/real/index.html" alt="#">메인페이지로 돌아가기</a>
+    </div>
+  </header>
+
+  <!--header end-->
+
+  <!--cart menu start-->
+  <section id="cart-menu" class="cart-menu">
+    <div class="cart-menu-box">
+      <img src="images/americano.jpg" alt="이미지 작업중입니다.">
+      <div class="cart-menu-box-detail">
+        <div class="cart-menu-box-detail-title">
+          <p>아메리카노 (HOT)</p>
+        </div>
+        <div class="cart-menu-box-detail-text">
+          <span>3500</span>
+          <button class="cart-menu-box-detail-btn" type="button">카트추가</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart-menu-box">
+      <img src="images/cafuchino.jpg" alt="이미지 작업중입니다.">
+      <div class="cart-menu-box-detail">
+        <p>카푸치노 (HOT)</p>
+        <span>3500</span>
+        <button class="cart-menu-box-detail-btn" type="button">카트추가</button>
+      </div>
+    </div>
+
+    <div class="cart-menu-box">
+      <img src="images/drop.jpg" alt="이미지 작업중입니다.">
+      <div class="cart-menu-box-detail">
+        <p>드롭커피 (HOT)</p>
+        <span>3500</span>
+        <button class="cart-menu-box-detail-btn" type="button">카트추가</button>
+      </div>
+    </div>
+
+    <div class="cart-menu-box">
+      <img src="images/espresso.jpg" alt="이미지 작업중입니다.">
+      <div class="cart-menu-box-detail">
+        <p>에스프레소 (HOT)</p>
+        <span>3500</span>
+        <button class="cart-menu-box-detail-btn" type="button">카트추가</button>
+      </div>
+    </div>
+
+    <div class="cart-menu-box">
+      <img src="images/hot-latte.jpg" alt="이미지 작업중입니다.">
+      <div class="cart-menu-box-detail">
+        <p>커피라떼 (HOT)</p>
+        <span>3500</span>
+        <button class="cart-menu-box-detail-btn" type="button">카트추가</button>
+      </div>
+    </div>
+
+    <div class="cart-menu-box">
+      <img src="images/ice-latte.jpg" alt="이미지 작업중입니다.">
+      <div class="cart-menu-box-detail">
+        <p>커피라떼 (ice)</p>
+        <span>3500</span>
+        <button class="cart-menu-box-detail-btn" type="button">카트추가</button>
+      </div>
+    </div>
+  </section>
+  <!--cart menu end-->
+
+  <!--cart list start-->
+  <section class="cart-list" id="cart-list">
+    <div class="cart-list-row">
+      <span class="cart-list-colum">Coffee</span>
+      <span class="cart-list-colum">price</span>
+      <span class="cart-list-colum">갯수 </span>
+    </div>
+
+    <div class="cart-list-items">
+      
+      <div class="cart-list-items-details">
+        <div class="cart-list-items-details-ch">
+          <span> 아메리카노(HOT)</span>
+        </div>
+
+        <div class="cart-list-items-details-ch">
+          <span> 3500</span>
+        </div>
+
+        <div class="cart-list-items-details-ch">
+          <span>1</span>
+          <button class="btn-delete" type="button">삭제</button>
+        </div>
+
+      </div>
+      <div class="cart-list-items-details">
+        <div class="cart-list-items-details-ch">
+          <span> 라떼(HOT)</span>
+        </div>
+      
+        <div class="cart-list-items-details-ch">
+          <span class="cart-list-items-details-ch-price">3500</span>
+        </div>
+      
+        <div class="cart-list-items-details-ch">
+          <span class="cart-list-items-details-ch-quan">2</span>
+          <button class="btn-delete" type="button">삭제</button>
+        </div>
+      
+      </div>
+
+    </div>
+    
+    <div class="cart-list-total">
+      <span class="cart-list-total-title">총가격</span>
+      <span class="cart-list-total-price">0원</span>
+    </div>
+
+    <button class="btn-purchase" type="button">구매하기</button>
+    
+  </section>
+  <!--cart list end-->
+
+  <!--purchase bar start-->
+  <!--purchase bar end-->
+
+  <script src="js/cart.js"></script>
+</body>
+
+</html>

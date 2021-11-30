@@ -1,0 +1,105 @@
+#join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100rem;
+  text-align: center;
+  background: url(/real/images/join/back.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 5rem;
+}
+
+#join .container {
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  width: 80rem;
+  position: relative;
+}
+#join .container .join_box {
+  display: flex;
+}
+#join .container :last-child {
+  margin-bottom: 5rem;
+}
+
+#join .jointitle {
+  margin-bottom: 5rem;
+}
+#join .jointitle span {
+  font-size: 30px;
+  color: var(--logo);
+  font-weight: 800;
+}
+
+.join_box :nth-child(3) {
+  color: rgba(224, 217, 217, 0.7);
+  font-size: 16px;
+  margin-left: 4rem;
+}
+
+#join .container .join_box .war_be span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+
+.join_box span {
+  font-size: 25px;
+  color: var(--logo);
+}
+
+#join .join_box input {
+  width: 20rem;
+  height: 30px;
+  background-color: transparent;
+  border-bottom: 2px solid var(--insta);
+}
+
+input::placeholder {
+  color: var(--logo);
+  font-size: 18px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.war_be {
+  margin-left: 5rem;
+  font-weight: 600;
+}
+
+.join_box img {
+  width: 100%;
+}
+
+.join_box__sec button {
+  width: 100px;
+  height: 50px;
+  z-index: 5;
+}
+
+.join_box__add #join_add_ch button {
+  background-color: transparent;
+  font-size: 3rem;
+  color: antiquewhite;
+}
+
+.join_box .join_box__map {
+  margin-right: 5rem;
+}
+.join_box .join_box__add input {
+  margin-bottom: 8rem;
+}
+
+.join_btn {
+  background-color: transparent;
+  font-size: 4rem;
+  color: var(--logo);
+  font-weight: 520;
+}
+
+#join button:hover {
+  border-bottom: 4px solid var(--logo);
+}

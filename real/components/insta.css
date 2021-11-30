@@ -1,0 +1,24 @@
+.insta h1 {
+  font-size: 5rem;
+  margin: 30px 0px 30px 0px;
+  text-align: center;
+  color: var(--logo);
+}
+
+.insta h1 span {
+  font-size: 2.5rem;
+  margin-left: 3rem;
+  color: var(--insta);
+}
+
+.insta-image {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 3rem;
+}
+
+.insta-image .box img {
+  width: 120%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 3px 4px 3px rgba(0, 0, 0, 0.2);
+}
