@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&display=swap");
+
+:root {
+  --back-color: #ffff;
+  --bor: #cd853f;
+  --main: #d2691e;
+  --border: 0.1rem solid #fff8dc;
+  --logo: #a52a2a;
+  --intro: #fdfcf9;
+  --insta: #c7b19b;
+}
+
+* {
+  font-family: "Nanum Myeongjo", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+html {
+  font-size: 70%;
+  overflow-x: hidden;
+  scroll-padding-top: 8rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5rem;
+}
+
+body {
+  background: var(--bg);
+}
+
+section {
+  padding: 2rem 7%;
+}
+
+a {
+  text-decoration: initial;
+  color: #000;
+}

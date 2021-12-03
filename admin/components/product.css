@@ -1,0 +1,44 @@
+#menubox-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 3rem;
+}
+
+#menubox-container .box img {
+  width: 280px;
+  height: 30rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.8);
+}
+
+.menu h1 {
+  font-size: 5rem;
+  margin: 30px 0px 30px 0px;
+  text-align: center;
+  color: var(--logo);
+}
+
+.menu h1 span {
+  font-size: 7.5rem;
+  margin-left: 0.7rem;
+  color: var(--bor);
+}
+
+.box {
+  text-align: center;
+  padding: 4rem;
+}
+
+.box p {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+.box .price div {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: line-through;
+}
+
+.box .price {
+  font-size: 2rem;
+}
